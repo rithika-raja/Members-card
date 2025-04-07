@@ -11,17 +11,18 @@
 /*--------- profile Body-------- */
 .profileBody {
     /* background-color: #f0f4f8; */
-    padding: 1rem 2rem 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .propicBlock {
     /* background-color: #d0e7ff; */
+    width: 100%;
+    height: auto;
 }
 
 .propicBox {
     /* background-color: #a4d3f0; */
-    width: 100%;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -34,14 +35,12 @@
     color: #919193;
 }
 
-.nameBlock {
+.nameBox {
     /* background-color: #d6f5e6; */
 }
 
-.nameBox {
+.namesubBox {
     /* background-color: #b2ebd9; */
-    width: 100%;
-    height: auto;
     padding: 0rem 1rem;
 }
 
@@ -111,11 +110,15 @@
     line-height: 1;
     /* letter-spacing: 0.5rem; */
     margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
 }
 
 .weblinkBox form, 
 .emailBox form {
     /* background-color: #638aab; */
+    width: 100%;
+    height: auto;
     gap: 1rem;
 }
 
@@ -155,7 +158,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    width: 25%;
+    width: 10%;
     height: auto;
 }
 
@@ -207,31 +210,29 @@
 
 .membersBody {
     /* background-color: #f0f7ff; */
-    padding: 1rem 2rem;
+    width: 100%;
+    height: auto;
 }
 
 .memberBlock {
-    /* background-color: #e4eef9; */
-    width: 100%;
-    height: auto;
+    /* background-color: #0f1821; */
+    /* width: 100%;
+    height: auto; */
 }
 
 .memberBox {
     /* background-color: #dceefc; */
+    /* width: 100%;
+    height: auto; */
+}
+
+.memberlistBox{
+    /* background-color: #919193; */
     width: 100%;
     height: auto;
 }
-
-.memberBox h3 {
-    /* background-color: #cde3f7; */
-    width: 100%;
-    height: auto;
-}
-
 .memberList {
     background-color: #f0f1f1;
-    width: 100%;
-    height: auto;
     border:none;
     border-radius: 1.5rem;
     gap: 1rem;
@@ -259,6 +260,8 @@
 
 .infoBox {
     /* background-color: #edf6fd; */
+    width: 100%;
+    height: auto;
 }
 
 .infoBox h4 {
@@ -281,6 +284,8 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1;
+    width: 100%;
+    height: auto;
     /* letter-spacing: 0.5rem; */
     /* margin-bottom: 0.5rem; */
 }
@@ -294,7 +299,7 @@
     height: auto;
 }
 
-select {
+.membutton select {
     /* background-color: #cbe4f9; */
     font-family: "Open Sans", sans-serif;
     color: #060606;
@@ -310,9 +315,12 @@ select {
 
 .buttonBody {
     /* background-color: #f3f8ff; */
-    padding: 0rem 2rem 1rem;
+    padding-bottom: 1rem;
 }
-
+.buttonContainer{
+    /* background-color: #b0b0b1; */
+    gap: 1rem;
+}
 .buttonBlock-1 {
     /* background-color: #e1eef9; */
     width: 100%;
@@ -321,8 +329,8 @@ select {
 
 .buttonBox-1 {
     /* background-color: #d9eaf7; */
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
 }
 
 .buttonBox-1 button {
@@ -341,7 +349,7 @@ select {
 }
 
 .buttonBlock-2 {
-    /* background-color: #d0e9f9; */
+    /* background-color: #93f865; */
     width: 100%;
     height: auto;
 }
