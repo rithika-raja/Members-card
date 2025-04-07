@@ -1,0 +1,389 @@
+.task {
+    background-color: #f2f2f4;
+}
+
+.taskContainer {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+
+/*--------- profile Body-------- */
+.profileBody {
+    /* background-color: #f0f4f8; */
+    padding: 1rem 2rem 2rem;
+}
+
+.propicBlock {
+    /* background-color: #d0e7ff; */
+}
+
+.propicBox {
+    /* background-color: #a4d3f0; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0.25rem;
+}
+
+.propicBox i {
+    /* background-color: #a4d3f0; */
+    font-size: 2.5rem;
+    color: #919193;
+}
+
+.nameBlock {
+    /* background-color: #d6f5e6; */
+}
+
+.nameBox {
+    /* background-color: #b2ebd9; */
+    width: 100%;
+    height: auto;
+    padding: 0rem 1rem;
+}
+
+.nameBox h3 {
+    /* background-color: #cfe3fc; */
+    font-family: "Open Sans", sans-serif;
+    color: #060606;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 0.5rem;
+}
+
+.nameBox p {
+    /* background-color: #f7e0b2; */
+    font-family: "Open Sans", sans-serif;
+    color: #b0b0b1;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}
+
+/* ------------- horizon line----------------- */
+
+.horizonBody{
+    /* background-color: #b0b0b1; */
+}
+
+.horizonBlock{
+    /* background-color: #b2ebeb; */
+    border: none;
+    border-bottom: 0.2rem dashed #b0b0b1;
+    margin-bottom: 2rem;
+}
+
+
+/* ------ linksBody --------- */
+
+.linksBody {
+    /* background-color: #f3f6fb; */
+}
+
+.linksBlock {
+    /* background-color: #dcecf9; */
+}
+
+.weblinkBox,
+.emailBox {
+    /* background-color: #e0f7fa; */
+    padding-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.weblinkBox h3,
+.emailBox h3,
+.memberBox h3 {
+    /* background-color: #d0e8ff; */
+    /* background-color: #cfe3fc; */
+    font-family: "Open Sans", sans-serif;
+    color: #060606;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 1rem;
+}
+
+.weblinkBox form, 
+.emailBox form {
+    /* background-color: #638aab; */
+    gap: 1rem;
+}
+
+.formGroup {
+    /* background-color: #ddeefa; */
+    width: 100%;
+    height: auto;
+}
+.formGroup i{
+    /* background-color: #d77723; */
+    font-size: 1.75rem;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    color: #919193;
+}
+.formGroup input{
+    /* background-color: #eab07d; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    color: #060606;
+    font-weight: 500;
+    line-height: 1.75;
+    padding: 0.5rem 3.5rem;
+    border: #b0b0b1 solid 0.1rem;
+    border-radius: 0.75rem;
+    width: 100%;
+    height: auto;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}
+.formGroup input::placeholder{
+    color: #000000;
+}
+
+.btn {
+    /* background-color: #17bd30; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 25%;
+    height: auto;
+}
+
+.btn button {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+    color: #060606;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.75;
+    padding: 0.5rem 1rem;
+    border: #b0b0b1 solid 0.1rem;
+    border-radius: 0.75rem;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}
+
+.newdomainBox {
+    /* background-color: #d7f0e2; */
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0rem 0rem;
+}
+
+.newdomainBox a {
+    /* background-color: #c3e4d5; */
+}
+
+.newdomainBox a i{
+    /* background-color: #c3e4d5; */
+    font-size: 1rem;
+    padding: 0rem 0.75rem 1.25rem;
+} 
+
+.newdomainBox p {
+    /* background-color: #f9f0c3; */
+    font-family: "Open Sans", sans-serif;
+    color: #060606;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 0.5rem;
+}
+
+/* --------- memberBody ---------- */
+
+.membersBody {
+    /* background-color: #f0f7ff; */
+    padding: 1rem 2rem;
+}
+
+.memberBlock {
+    /* background-color: #e4eef9; */
+    width: 100%;
+    height: auto;
+}
+
+.memberBox {
+    /* background-color: #dceefc; */
+    width: 100%;
+    height: auto;
+}
+
+.memberBox h3 {
+    /* background-color: #cde3f7; */
+    width: 100%;
+    height: auto;
+}
+
+.memberList {
+    background-color: #f0f1f1;
+    width: 100%;
+    height: auto;
+    border:none;
+    border-radius: 1.5rem;
+    gap: 1rem;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.imageBox {
+    /* background-color: #f5f9ff; */
+    height: 6rem;
+    width: auto;
+    aspect-ratio: 1 /1 ;
+    padding: 0.5rem;
+}
+
+.imageBox figure {
+    /* background-color: #e0edf7; */
+}
+
+.imageBox figure  img {
+    /* background-color: #dbeaf5; */
+    aspect-ratio: 1 / 1 ;
+    border-radius: 6rem;
+}
+
+.infoBox {
+    /* background-color: #edf6fd; */
+}
+
+.infoBox h4 {
+    /* background-color: #d0e8fa; */
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+    color: #060606;
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 0.5rem;
+}
+
+.infoBox p {
+    /* background-color: #f9f5dd; */
+    font-family: "Open Sans", sans-serif;
+    color: #919193;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 0.5rem; */
+}
+
+.membutton {
+    /* background-color: #e2f0f4; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+}
+
+select {
+    /* background-color: #cbe4f9; */
+    font-family: "Open Sans", sans-serif;
+    color: #060606;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.75;
+    padding: 0.5rem;
+    border: #b0b0b1 solid 0.1rem;
+    border-radius: 3rem;
+}
+
+/* ----------- buttonBody ------------ */
+
+.buttonBody {
+    /* background-color: #f3f8ff; */
+    padding: 0rem 2rem 1rem;
+}
+
+.buttonBlock-1 {
+    /* background-color: #e1eef9; */
+    width: 100%;
+    height: auto;
+}
+
+.buttonBox-1 {
+    /* background-color: #d9eaf7; */
+    width: 100%;
+    height: auto;
+}
+
+.buttonBox-1 button {
+    /* background-color: #bcdff6; */
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    color: #060606;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 0.5rem 1.5rem;
+    border: #b0b0b1 solid 0.1rem;
+    border-radius: 1rem;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}
+
+.buttonBlock-2 {
+    /* background-color: #d0e9f9; */
+    width: 100%;
+    height: auto;
+}
+.buttonBox-2 {
+    /* background-color: #d9eaf7; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+} 
+
+.buttonBlock-2 button{
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    color: #060606;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 0.5rem 1.5rem;
+    border: #b0b0b1 solid 0.1rem;
+    border-radius: 1rem;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}
+.saveBox {
+    /* background-color: #c4e3f8; */
+}
+
+.saveBox button{
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 0.5rem 1.5rem;
+    border: #b0b0b1 solid 0.1rem;
+    border-radius: 1rem;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}
